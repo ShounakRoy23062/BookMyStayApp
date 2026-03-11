@@ -1,9 +1,7 @@
 public abstract class Room {
 
     protected int numberOfBeds;
-
     protected int squareFeet;
-
     protected double pricePerNight;
 
     public Room(int numberOfBeds, int squareFeet, double pricePerNight) {
@@ -12,7 +10,6 @@ public abstract class Room {
         this.pricePerNight = pricePerNight;
     }
 
-    /** Displays room details */
     public void displayRoomDetails() {
         System.out.println("Beds: " + numberOfBeds);
         System.out.println("Size: " + squareFeet + " sqft");
