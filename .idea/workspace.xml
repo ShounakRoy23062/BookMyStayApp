@@ -5,27 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="116f0cd4-e134-4e51-8eb6-ec62f884b5b8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/App/src/AddOnService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/src/BookMyStayApp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/src/DoubleRoom.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/src/HotelBookingApp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/src/Room.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/src/SingleRoom.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/src/SuiteRoom.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/src/UC6RoomAllocationService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/App/BookingRequestQueue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/App/DoubleRoom.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/App/DoubleRoom.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/App/InventorySetup.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/App/Reservation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/App/Reservation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/App/Room.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/App/Room.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/App/RoomInventory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/App/RoomInventory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/App/RoomSearch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/App/RoomSearchService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/App/SingleRoom.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/App/SingleRoom.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/App/SuiteRoom.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/App/SuiteRoom.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/App/UC5BookingRequestQueue.class" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/src/Reservation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/src/AddOnService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/src/AddOnServiceManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/src/UC7AddOnServiceSelection.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,26 +43,20 @@
     "Application.InventorySetup.executor": "Run",
     "Application.RoomSearch.executor": "Run",
     "Application.UC6RoomAllocationService.executor": "Run",
+    "Application.UC7AddOnServiceSelection.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "usecase6",
+    "git-widget-placeholder": "usecase7",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/Admin/Documents/RA2411047010048/BookMyStayApp",
     "to.speed.mode.migration.done": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.UC7AddOnServiceSelection">
-    <configuration name="InventorySetup" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InventorySetup" />
-      <module name="App" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.UC8BookingHistoryReport">
     <configuration name="RoomSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="RoomSearch" />
       <module name="App" />
@@ -108,13 +85,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UC8BookingHistoryReport" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="UC8BookingHistoryReport" />
+      <module name="App" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UC8BookingHistoryReport" />
         <item itemvalue="Application.UC7AddOnServiceSelection" />
         <item itemvalue="Application.UC6RoomAllocationService" />
         <item itemvalue="Application.UC5BookingRequestQueue" />
         <item itemvalue="Application.RoomSearch" />
-        <item itemvalue="Application.InventorySetup" />
       </list>
     </recent_temporary>
   </component>
