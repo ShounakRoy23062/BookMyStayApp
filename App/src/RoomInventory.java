@@ -11,11 +11,15 @@ public class RoomInventory {
         rooms.put("Suite", 2);
     }
 
-    public void incrementRoom(String roomType) {
-        rooms.put(roomType, rooms.getOrDefault(roomType, 0) + 1);
-    }
-
     public int getAvailability(String roomType) {
         return rooms.getOrDefault(roomType, 0);
+    }
+
+    public void decrementRoom(String roomType) {
+        rooms.put(roomType, rooms.get(roomType) - 1);
+    }
+
+    public Map<String, Integer> getAllRooms() {
+        return rooms;
     }
 }
