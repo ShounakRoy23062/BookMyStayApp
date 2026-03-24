@@ -65,9 +65,9 @@
     "to.speed.mode.migration.done": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.UseCase9ErrorHandlingValidation">
-    <configuration name="UC5BookingRequestQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="UC5BookingRequestQueue" />
+  <component name="RunManager" selected="Application.UC10BookingCancellation">
+    <configuration name="UC10BookingCancellation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="UC10BookingCancellation" />
       <module name="App" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -103,11 +103,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UC10BookingCancellation" />
         <item itemvalue="Application.UseCase9ErrorHandlingValidation" />
         <item itemvalue="Application.UC8BookingHistoryReport" />
         <item itemvalue="Application.UC7AddOnServiceSelection" />
         <item itemvalue="Application.UC6RoomAllocationService" />
-        <item itemvalue="Application.UC5BookingRequestQueue" />
       </list>
     </recent_temporary>
   </component>
